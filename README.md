@@ -24,3 +24,22 @@ gcc -o qc qc.c
 
 R.csv → Contains table R(A, B, C)
 S.csv → Contains table S(D, A, E)
+
+
+📌 Description of gwa.c
+
+This program implements a group-by with aggregation operation using a modified merge sort algorithm. 
+It processes a CSV file containing a table with three numeric columns and performs aggregation (SUM, MIN, or MAX) on a selected attribute while grouping by another attribute.
+
+1️⃣ Compile the program (if using GCC):
+
+gcc -o gwa gwa.c
+
+2️⃣ Run the program:
+
+./gwa input.csv group_by_column aggregation_column aggregation_function
+
+Example:
+
+./groupby_merge R.csv 1 2 max
+
