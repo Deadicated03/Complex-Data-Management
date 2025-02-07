@@ -3,6 +3,7 @@ This repository contains implementations for complex data management, spatial da
 
 
 📌 Description of qc.c
+
 This program processes two CSV files, R.csv and S.csv, to compute the sum of column E from S for all entries where R.A = S.A and R.C = 7. 
 It efficiently scans both files and outputs the results into O3.csv. This implements the following SQL query:
 
