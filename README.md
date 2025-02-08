@@ -1,6 +1,7 @@
 # Complex-Data-Management
 This repository contains implementations for complex data management, spatial data indexing, and top-k query processing
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 📌 Description of qc.c
 
@@ -13,18 +14,16 @@ WHERE R.A = S.A AND R.C = 7
 GROUP BY S.A;
 
 1️⃣ Compile the program (if using GCC):
-
-gcc -o qc qc.c
+`gcc -o qc qc.c`
 
 2️⃣ Run the program:
-
-./qc
+`./qc`
 
 3️⃣ Ensure the input files exist in the same directory:
+`R.csv → Contains table R(A, B, C)`
+`S.csv → Contains table S(D, A, E)`
 
-R.csv → Contains table R(A, B, C)
-S.csv → Contains table S(D, A, E)
-
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 📌 Description of gwa.c
 
