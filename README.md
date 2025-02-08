@@ -12,7 +12,7 @@ SELECT S.A, SUM(S.E)
 
 FROM R, S
 
-WHERE R.A = S.A AND R.C = 7
+WHERE R.A = S.A AND R.C = 7  
 GROUP BY S.A;
 
 
