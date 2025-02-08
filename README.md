@@ -9,10 +9,11 @@ This program processes two CSV files, R.csv and S.csv, to compute the sum of col
 It efficiently scans both files and outputs the results into O3.csv. This implements the following SQL query:
 
 
+``sql
 SELECT S.A, SUM(S.E) 
 FROM R, S 
 WHERE R.A = S.A AND R.C = 7 
-GROUP BY S.A;
+GROUP BY S.A``
 
 
 1️⃣ Compile the program (if using GCC):
